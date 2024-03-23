@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+h1  {
+  font-family: "Raleway", sans-serif;
+  font-size: 500;
+
+}
+
+p .button{
+  color: #86928B;
+}
+.header_item, .item_footer {
+  background-color:#E1EDE6;
+}
+.heading {
+  color:#598D66 ;
+}
+
+li {
+display: inline;
+text-align: right;
+
+}
+
+/* Размеры */
+
+figure {
+  width: 310;
+  height: 422;
+}
+
+.navigation {
+  width: 1440px;
+  height: 100px;
+}
+
+button {
+  padding: 15px;
+  font-size: larger;
+}
+
+
+/* CSS-псевдоклассы :hover, :focus и :active задают 
+элементам состояния, которые реализуются при определённых 
+действиях пользователя. */
+
+a {
+  color: #2C2D35;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #598D66;
+}
+
