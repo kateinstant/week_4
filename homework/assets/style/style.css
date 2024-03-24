@@ -1,18 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
+.box {
   font-family: "Raleway", sans-serif;
 }
-h1  {
-  font-family: "Raleway", sans-serif;
-  font-size: 500;
-
-}
-
-p .button{
+p {
   color: #86928B;
 }
 .header_item, .item_footer {
@@ -22,33 +11,29 @@ p .button{
   color:#598D66 ;
 }
 
-li {
-display: inline;
+.listFooter {
+
 text-align: right;
 
 }
-
-/* Размеры */
-
-figure {
-  width: 310;
-  height: 422;
+.pFooter{
+  font-size: 20px;
 }
 
 .navigation {
-  width: 1440px;
   height: 100px;
 }
 
 button {
   padding: 15px;
   font-size: larger;
+  color: #598D66;
+}
+.item_footer {
+  height: 168px;
 }
 
-
-/* CSS-псевдоклассы :hover, :focus и :active задают 
-элементам состояния, которые реализуются при определённых 
-действиях пользователя. */
+/* CSS-псевдоклассы*/
 
 a {
   color: #2C2D35;
@@ -59,3 +44,27 @@ a:hover {
   color: #598D66;
 }
 
+.navigation_a, .listFooter {
+  color: #000000;
+  font-size: 22px;
+}
+
+.navigation_a, .listFooter:focus {
+  color: #1c5741;
+}
+
+.listFooter {
+  color: #000000;
+}
+
+.listFooter:active {
+  color: #ea5454;
+}
+
+.navigation_a  {
+  color: #000000;
+}
+
+.navigation_a:active {
+  color: #ea5454;
+}
