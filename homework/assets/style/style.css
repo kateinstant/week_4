@@ -32,7 +32,13 @@ button {
 .item_footer {
   height: 168px;
 }
-
+.item_about {
+  width: 1110;
+  height: 440;
+}
+.about {
+  color: #2C2D35;
+}
 /* CSS-псевдоклассы*/
 
 a {
